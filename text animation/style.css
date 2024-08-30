@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #044481;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 6rem;
+  color: #fcfafa;
+  padding: 2rem 0;
+  overflow: hidden;
+}
+
+/* this is must -- y in gsap means translate y , it does not work if the element is inline */
+h1 span {
+  display: inline-block;
+}
